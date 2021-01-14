@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu-name ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+.for-background {
+    background-color: lightgray;
+}
+
+.bold-heading {
+    font-weight: 900;
+}
+
+.bold-heading-2 {
+    color: darkcyan;
+    font-weight: 900;
+}
+
+.button {
+    background-color: #97B033;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-paragraph {
+    font-weight: lighter;
+    color: rgb(95, 78, 78);
+}
+
+.description {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.description img {
+    width: 100%;
+}
+
+.header-img {
+    margin-top: -50px;
+}
+
+#product1,
+#product2,
+#product3 {
+    height: 290px;
+    width: 270px;
+    margin-left: 14px;
+    background-color: #F1F1F1;
+}
+
+#product {
+    height: 125px;
+    width: 110px;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.left img {
+    height: 500px;
+    width: 300px;
+    align-items: center;
+}
+
+.panda-slide .carousel-item {
+    background-color: cyan;
+    border-radius: 1em;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#primary-footer {
+    background-color: #edf7fa;
+}
+
+.footer-widget-area {
+    padding: 50px 0;
+}
+
+.footer-widget-area p {
+    font-size: 20px;
+}
+
+.footer-widget-area li {
+    margin-top: 10px;
+}
+
+.footer-widget-area li a {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.footer-widget-area li a:hover {
+    text-decoration: none;
+    color: #00d07e;
+}
+
+.footer-widget-heading h4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.linkediting .fa {
+    color: #21bf73;
+}
+
+.copyright-area {
+    background-color: #edf7fa;
+    padding: 20px 0;
+}
+
+.copyright-text p {
+    font-size: 18px;
+}
+
+.copyright-text a {
+    color: #21bf73;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-menus li {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.footer-menus li a {
+    font-size: 18px;
+    color: var(--black);
+}
+
+@media (max-width: 991.98px) {
+    .footer-social-icon span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .copyright-text p {
+        text-align: center;
+    }
+    .footer-menus ul {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-widget-area {
+        padding: 0 20px;
+    }
+    .copyright-text p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer-menus ul {
+        text-align: center;
+    }
+    .footer-menus ul li a {
+        font-size: 16px;
+    }
+}
+
+
+/* Device Responsive */
+
+@media (min-width: 400px) {
+    .heading {
+        text-align: center;
+    }
+    .heading2 {
+        text-align: center;
+    }
+    .responsive {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .done {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 576px) {
+    .heading {
+        text-align: center;
+    }
+    .heading2 {
+        text-align: center;
+    }
+    .responsive {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .done {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        text-align: center;
+    }
+    .heading2 {
+        text-align: center;
+    }
+    .responsive {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 778px) {
+    .heading {
+        text-align: center;
+    }
+    .heading2 {
+        text-align: center;
+    }
+    .responsive {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
